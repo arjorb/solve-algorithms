@@ -1,3 +1,3 @@
-const numberFormat = function (number) {
+const numberFormat = (number) => {
   return new Intl.NumberFormat("en-US").format(number);
 };
